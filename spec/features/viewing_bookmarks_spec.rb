@@ -10,9 +10,9 @@ feature 'viewing bookmarks' do
   scenario 'A user can see bookmark' do
     visit('/bookmarks')
     
-    expect(page).to have_content "http://makersacademy.com"
-    expect(page).to have_content "http://destroyallsoftware.com"
-    expect(page).to have_content "http://google.com"
+    expect(page).to have_content "http://www.makersacademy.com/"
+    expect(page).to have_content "http://www.destroyallsoftware.com"
+    expect(page).to have_content "http://www.google.com/"
   end
   
 end
