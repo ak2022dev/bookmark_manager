@@ -2,10 +2,11 @@
 
 require 'pg'
 
-p "Setting up test database..."
+def setup_test_database
+  p "Setting up test database..."
 
-connection = PG.connect(dbname: 'bookmark_manager_test')
+  connection = PG.connect(dbname: 'bookmark_manager_test')
 
-# Efficiently clear the bookmarks table
-connection.exec("TRUNCATE bookmarks;")
-
+  # Efficiently clear the bookmarks table
+  connection.exec("TRUNCATE bookmarks;")
+end
