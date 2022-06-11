@@ -23,3 +23,4 @@ I'd like to be able to save my bookmarks to reopen later.
 2. Create the database using the psql command CREATE DATABASE bookmark_manager;
 3. Connect to the database using the psql command \c bookmark_manager;
 4. Run the query we have saved in the db/migrations directory in the file 01_create_bookmarks_table.sql
+# bookmark_manager_mac
